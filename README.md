@@ -53,6 +53,72 @@ cd deepdey
 
 ---
 
+## How to Deploy
+
+To deploy your website hosted on GitHub Pages, follow these steps:
+
+---
+
+### ✅ Step 1: Push Your Code to GitHub
+
+1. **Clone your repository** (if you haven't already):
+
+   ```bash
+   git clone https://github.com/deepdeyiitgn/deepdey.git
+   cd deepdey
+   ```
+
+2. **Add your files** (if not already added):
+
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   ```
+
+3. **Push to GitHub**:
+
+   ```bash
+   git push origin main
+   ```
+
+---
+
+### ✅ Step 2: Enable GitHub Pages
+
+1. **Navigate to your repository**: [https://github.com/deepdeyiitgn/deepdey](https://github.com/deepdeyiitgn/deepdey)
+
+2. **Go to Settings** (⚙️ icon).
+
+3. **Scroll down to the "Pages" section**.
+
+4. **Under "Source"**, select `main` branch and `/ (root)` folder.
+
+5. **Click "Save"**.
+
+---
+
+### ✅ Step 3: Access Your Live Website
+
+After a few minutes, your site will be live at:
+
+```
+https://deepdeyiitgn.github.io/deepdey/
+```
+
+---
+
+### 🔧 Troubleshooting Tips
+
+* **Ensure `index.html` is in the root directory** of your repository.
+* **Check for typos** in file names and paths.
+* **Clear your browser cache** or try accessing the site in an incognito window.
+
+---
+
+If you encounter any issues or need further assistance, feel free to ask!
+
+---
+
 ## Achievements & Milestones
 
 * Scored **93% in 10th Grade Maths** and **80.6% overall** in Madhyamik (TBSE).
