@@ -1,115 +1,88 @@
+# Deep Dey – The Future IITian 🎓✨
+
+[![Website](https://img.shields.io/badge/Website-DeepDey-blue)](https://www.deepdeyiitk.com)
+[![YouTube](https://img.shields.io/badge/YouTube-DeepDey-red)](https://www.youtube.com/@deepdeyiit)
+[![Email](https://img.shields.io/badge/Email-contact@deepdeyiitk.com-yellow)](mailto:thedeeparise@gmail.com)
 
 ---
 
-```markdown
-# Deep Dey | Personal Portfolio
+## About Me
 
-Welcome to my **personal & portfolio website**! This repository showcases my skills, projects, blogs, and social presence.  
-The site is designed with a **modern, minimal, colorful, and dark mode vibe**, fully responsive, and professional.
+Hi! I’m **Deep Dey**, a passionate Class 11 CBSE student from Tripura and a determined JEE aspirant aiming for **JEE 2027**. My goal is to achieve **240+ in JEE Mains, 300+ in JEE Advanced, and secure AIR < 700**, ultimately joining **IIT Gandhinagar**.
 
----
+I love blending **creativity with learning**, building interactive websites, making engaging content, and inspiring others through my journey.
+I strongly believe in **discipline, focus, and the power of consistency**—every small effort today builds the foundation for tomorrow’s success.
 
-## 🌟 About This Project
-- **Full Name / Display Name:** Deep Dey  
-- **Short Bio / Tagline:** Aspiring IITian, AI enthusiast & coder, blending tech with creativity.  
-- **Portfolio / Website:** [www.deepdeyiitk.com](https://www.deepdeyiitk.com)  
-- **Blog:** [blogs.deepdeyiitk.com](https://blogs.deepdeyiitk.com)  
-
-This repository contains multiple HTML pages for a **personal portfolio**, including:  
-- `index.html` – Home  
-- `about.html` – About Me  
-- `portfolio.html` – Projects & Achievements  
-- `blog.html` – Embedded blog site  
-- `contact.html` – Contact form & social links  
+* 🎯 **Mission:** Create a hub for JEE aspirants to access high-quality resources while sharing my personal preparation journey.
+* 💻 **Skills:** HTML, CSS, JavaScript, Python, Odoo, Web Animations, UX/UI Design
+* 🌐 **Website:** [www.deepdeyiitk.com](https://www.deepdeyiitk.com)
+* 📹 **YouTube:** [Deep Dey Channel](https://www.youtube.com/@deepdeyiit)
 
 ---
 
-## 🛠 Technologies Used
-- **HTML5 & CSS3** – Structure & styling  
-- **JavaScript** – Interactivity & responsive navbar  
-- **Dark Mode** – Default theme with colorful highlights  
-- **Responsive Design** – Works on desktop & mobile  
-- **Icons & Social Links** – Simple-icons integrated via CDN  
+## Features of My Projects
+
+* **Interactive Websites:** Modern, responsive designs with smooth animations.
+* **Educational Resources:** Free and premium JEE materials with secure downloads.
+* **Visual Effects:** Confetti, glassmorphism, animated SVG blobs, and sparkles for engagement.
+* **Donation & Support System:** Integrated with Razorpay for seamless contributions.
+* **Custom Thank You Pages:** Personalized messages for donors and supporters.
+* **Future Enhancements:** Mobile app integration, encrypted downloads, and more interactive features for aspirants.
 
 ---
 
-## 📂 Repository Structure
+## Tech Stack
+
+* **Frontend:** HTML5, CSS3, JavaScript, SVG, Canvas Animations
+* **Backend/Hosting:** Odoo, Razorpay Integration, GitHub Pages
+* **Design Tools:** Figma, Glassmorphism, Gradient Effects, Animation Libraries
+
+---
+
+## How to Use
+
+1. **Clone the Repo**
+
+```bash
+git clone https://github.com/deepdeyiitgn/deepdey.git
+cd deepdey
 ```
 
-deep-dey-portfolio/
-│
-├── index.html
-├── about.html
-├── portfolio.html
-├── blog.html
-├── contact.html
-├── style.css
-├── script.js
-├── assets/
-│   └── avatar.jpg  <-- Deep's avatar / logo
-└── README.md
-
-````
+2. **Open `index.html`** in your browser to explore my website.
+3. Navigate through sections like **Home, Contact, Donate, and Resources**.
 
 ---
 
-## 🚀 Live Demo
-Check the live portfolio here: [www.deepdeyiitk.com](https://www.deepdeyiitk.com)
+## Achievements & Milestones
+
+* Scored **93% in 10th Grade Maths** and **80.6% overall** in Madhyamik (TBSE).
+* Cleared 10th board exams on **13th March 2025**, starting JEE preparation with focus and dedication.
+* Consistently streaming daily **study sessions** to maintain accountability and discipline.
+* Building a **community of learners** through my website and YouTube channel.
 
 ---
 
-## ⚡ Features
-- Fully **dark-mode by default**  
-- **Responsive layout** for mobile and desktop  
-- **Modern, minimal, colorful vibe**  
-- **Interactive buttons & hover animations**  
-- **Embedded blog and AI projects section**  
-- **Social media links with icons**  
-- Easy to **update content** for future projects and blogs  
+## Contribution
+
+I welcome contributions to improve my projects or add new features.
+
+* Fork the repo 🔀
+* Make your changes ✨
+* Submit a pull request 📩
 
 ---
 
-## 📥 How to Run Locally
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/deepdeyiitgn/deep-dey-portfolio.git
-````
+## Contact Me
 
-2. Navigate into the folder:
-
-   ```bash
-   cd deep-dey-portfolio
-   ```
-3. Open `index.html` in your preferred browser:
-
-   ```bash
-   open index.html   # Mac
-   start index.html  # Windows
-   ```
+* **Email:** [contact@deepdeyiitk.com](mailto:thedeeparise@gmail.com)
+* **Instagram:** [@deepdey.official](https://www.instagram.com/deepdey.official)
+* **YouTube:** [Deep Dey](https://www.youtube.com/@deepdeyiit)
+* **Website:** [www.deepdeyiitk.com](https://www.deepdeyiitk.com)
 
 ---
 
-## 📬 Contact
-
-Connect with me:
-
-* [Facebook](https://www.facebook.com/deepdeyiitk)
-* [X (Twitter)](https://x.com/deepdeyofficial)
-* [LinkedIn](https://www.linkedin.com/in/deepdeyiitgn)
-* [Instagram](https://www.instagram.com/deepdey.official/)
-* [GitHub](https://github.com/deepdeyiitgn)
-* [YouTube](https://www.youtube.com/channel/UCrh1Mx5CTTbbkgW5O6iS2Tw)
-* [Discord](https://discord.gg/bSghTD4PVY)
+> “Your support isn’t just helping me—it’s inspiring a whole community of dreamers and doers.” 💜
 
 ---
 
-Made with ❤️ by **Deep Dey**
-
-```
-
----
-
-If you want, I can now **give you a final deployment checklist** so your **GitHub Pages site runs perfectly** for all 5 pages with your avatar, blog iframe, and social links.  
-
-Do you want me to do that next?
-```
+Made with ❤️ and relentless focus by **Deep Dey**
