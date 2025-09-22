@@ -8,7 +8,7 @@
 
 ## About Me
 
-Hi! I’m **Deep Dey**, a passionate Class 11 CBSE student from Tripura and a determined JEE aspirant aiming for **JEE 2027**. My goal is to achieve **240+ in JEE Mains, 300+ in JEE Advanced, and secure AIR < 700**, ultimately joining **IIT Gandhinagar**.
+Hi! I’m **Deep Dey**, a passionate Class 11 CBSE student from Tripura and a determined JEE aspirant aiming for **JEE 2027**. My goal is to achieve **240+ in JEE Mains, 330+ in JEE Advanced, and secure AIR < 70**, ultimately joining **IIT Kanpur (CSE Branch)**.
 
 I love blending **creativity with learning**, building interactive websites, making engaging content, and inspiring others through my journey.
 I strongly believe in **discipline, focus, and the power of consistency**—every small effort today builds the foundation for tomorrow’s success.
