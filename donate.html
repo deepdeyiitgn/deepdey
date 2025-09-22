@@ -1,0 +1,140 @@
+<!-- Version: 2025-09-22 | Synced with Main Website -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deep Dey – Donate & Support</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  body {
+    margin: 0;
+    font-family: 'Montserrat', 'Segoe UI', sans-serif;
+    background: #0f0f2a;
+    color: #f5f5f7;
+    line-height: 1.6;
+    overflow-x: hidden;
+    min-height: 100vh;
+    position: relative;
+  }
+
+  /* Animated SVG blobs and sparkles */
+  .bg-blob { position: fixed; z-index: 0; pointer-events: none; opacity: 0.45; filter: blur(8px) saturate(1.2); animation: blobMove 18s ease-in-out infinite alternate; }
+  .bg-blob1 { left: -120px; top: -80px; width: 350px; height: 350px; animation-delay: 0s; fill: #ffb6ea; }
+  .bg-blob2 { left: 60vw; top: 10vh; width: 420px; height: 420px; animation-delay: 2s; fill: #a1c4fd; }
+  .bg-blob3 { left: 10vw; top: 60vh; width: 320px; height: 320px; animation-delay: 4s; fill: #baf7d8; }
+  @keyframes blobMove { 0%{transform:scale(1) translate(0,0) rotate(0deg);}50%{transform:scale(1.12) translate(30px,40px) rotate(20deg);}100%{transform:scale(1) translate(0,0) rotate(0deg);} }
+
+  .sparkle { position: fixed; z-index: 1; pointer-events: none; opacity: 0.7; animation: sparkleMove 7s linear infinite; }
+  .sparkle1 { left: 20vw; top: 30vh; animation-delay:0s; fill:#ffd60a; }
+  .sparkle2 { left: 80vw; top: 70vh; animation-delay:2s; fill:#3a0ca3; }
+  .sparkle3 { left:50vw; top:10vh; animation-delay:4s; fill:#ffb6ea; }
+  @keyframes sparkleMove {0%{opacity:0.7; transform:scale(1) rotate(0deg);}50%{opacity:1; transform:scale(1.2) rotate(180deg);}100%{opacity:0.7; transform:scale(1) rotate(360deg);}}
+
+  .container {
+    max-width: 900px;
+    margin: 40px auto 0 auto;
+    background: rgba(15,15,42,0.75);
+    border-radius: 32px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+    padding: 48px 40px;
+    position: relative;
+    min-height: 650px;
+    z-index: 2;
+    backdrop-filter: blur(18px) saturate(1.5);
+    border: 3px solid;
+    border-image: linear-gradient(120deg,#ffb6ea,#a1c4fd,#baf7d8,#fbc2eb,#a1c4fd) 1;
+    animation: glassFadeIn 1.2s;
+    overflow: hidden;
+  }
+
+  @keyframes glassFadeIn { from{opacity:0; transform:scale(0.97);} to{opacity:1; transform:scale(1);} }
+
+  h1 { font-size:2.8rem; font-weight:700; margin-bottom:10px; color:#ffd60a; letter-spacing:1px; animation: fadeInDown 1s; text-shadow:0 2px 12px #3a0ca3,0 0 8px #ffb6ea; }
+  @keyframes fadeInDown { from{opacity:0; transform:translateY(-40px);} to{opacity:1; transform:translateY(0);} }
+
+  .why-donate { margin:24px 0; background: linear-gradient(120deg,#3a0ca3 0%,#ffd60a 100%); border-left:8px solid #a1c4fd; padding:20px 28px; border-radius:18px; animation: fadeIn 1.2s 0.2s both; color:#f5f5f7; font-size:1.15rem; font-weight:600; }
+
+  .benefits { margin:18px 0; padding:20px 28px; background: linear-gradient(120deg,#a1c4fd 0%,#baf7d8 100%); border-radius:18px; border-left:8px solid #ffd60a; animation: fadeIn 1.2s 0.4s both; box-shadow:0 2px 16px rgba(255,255,255,0.1); color:#0f0f2a; font-size:1.08rem; font-weight:500; }
+
+  .donate-btn { display:inline-block; background: linear-gradient(90deg,#ffb6ea 0%,#a1c4fd 50%,#3a0ca3 100%); color:#fff; font-size:1.2rem; font-weight:700; padding:16px 38px; border:none; border-radius:30px; margin:24px 12px 0 0; cursor:pointer; box-shadow:0 4px 16px rgba(67,97,238,0.12); transition: transform 0.2s, box-shadow 0.2s, background 0.3s; animation: fadeInUp 1s 0.6s both; text-decoration:none; position:relative; overflow:hidden; outline:2px solid #fff0; }
+  .donate-btn:after { content:''; position:absolute; left:-75%; top:0; width:50%; height:100%; background: linear-gradient(120deg,rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.1) 100%); transform: skewX(-20deg); transition:left 0.4s cubic-bezier(.4,0,.2,1); z-index:1; }
+  .donate-btn:hover:after { left:120%; }
+  .donate-btn:hover { transform:translateY(-3px) scale(1.08) rotate(-1deg); box-shadow:0 8px 32px rgba(67,97,238,0.18); background: linear-gradient(90deg,#3a0ca3 0%,#a1c4fd 50%,#ffb6ea 100%); outline:2px solid #ffd6f6; }
+
+  .social-links { margin:32px 0 0 0; display:flex; flex-wrap:wrap; gap:18px; align-items:center; z-index:2; }
+  .social-links a { display:flex; align-items:center; gap:8px; background: linear-gradient(90deg,#3a0ca3 0%,#ffd60a 100%); color:#0f0f2a; text-decoration:none; font-weight:600; padding:8px 18px; border-radius:20px; border:1.5px solid #a1c4fd; transition: background 0.2s, color 0.2s, box-shadow 0.2s; box-shadow:0 2px 8px rgba(255,255,255,0.07); position:relative; overflow:hidden; font-size:1.05rem; }
+
+  .pages-list { margin:32px 0 0 0; background: linear-gradient(90deg,#3a0ca3 0%,#ffd60a 100%); border-radius:14px; padding:18px 18px 10px 18px; box-shadow:0 2px 12px rgba(255,255,255,0.07); border:1.5px solid #a1c4fd; }
+  .pages-list a { display:block; color:#0f0f2a; text-decoration:none; margin-bottom:8px; font-size:1.07rem; transition:color 0.2s; padding-left:4px; font-weight:600; }
+  .pages-list a:hover { color:#fff; text-decoration:underline; }
+
+  .qna { margin-bottom:18px; border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:8px; background: linear-gradient(90deg,#3a0ca3 0%,#baf7d8 100%); border-radius:10px; box-shadow:0 1px 6px rgba(67,97,238,0.04); padding-left:10px; }
+  .qna .question { font-weight:700; margin-bottom:4px; cursor:pointer; transition:color 0.2s; font-size:1.08rem; position:relative; color:#ffd60a; }
+  .qna .question:after { content:'▼'; font-size:0.8em; margin-left:8px; transition: transform 0.3s; display:inline-block; }
+  .qna.active .question:after { transform:rotate(-180deg); }
+  .qna .question:hover { color:#ffb6ea; }
+  .qna .answer { max-height:0; overflow:hidden; transition: max-height 0.5s cubic-bezier(0.4,0,0.2,1), opacity 0.5s; color:#f5f5f7; font-size:1.01rem; opacity:0; padding-left:8px; }
+  .qna.active .answer { max-height:400px; margin-bottom:8px; opacity:1; padding-top:6px; }
+
+  @media(max-width:1100px){.container{padding:40px 16px; margin-left:0;}}
+</style>
+</head>
+<body>
+
+<!-- Animated background blobs -->
+<svg class="bg-blob bg-blob1" viewBox="0 0 600 600"><path/></svg>
+<svg class="bg-blob bg-blob2" viewBox="0 0 600 600"><path/></svg>
+<svg class="bg-blob bg-blob3" viewBox="0 0 600 600"><path/></svg>
+
+<div class="container">
+  <h1>Support Deep Dey's Journey</h1>
+
+  <div class="why-donate">
+    <h2 style="margin-top:0;">Why Donate?</h2>
+    <p>Your donation helps me continue my studies, create free resources, and inspire other JEE aspirants. Every contribution supports my mission to share honest experiences, tips, and motivation for students across India.</p>
+  </div>
+
+  <div class="benefits">
+    <h3 style="margin-top:0;">How Does Your Donation Help?</h3>
+    <ul>
+      <li>Funds website hosting, content creation, and free study materials.</li>
+      <li>Enables me to dedicate more time to helping students and sharing my journey.</li>
+      <li>Supports development of new tools, notes, and resources for JEE aspirants.</li>
+      <li>Helps keep all content honest, ad-free, and accessible to everyone.</li>
+    </ul>
+  </div>
+
+  <div style="margin-bottom:18px;">
+    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_RKaj0rYioRDUdJ" async></script></form>
+    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_RKawzjFaYESJHV" async></script></form>
+  </div>
+
+  <div class="pages-list">
+    <h2 style="font-size:1.1rem; margin-bottom:10px;">All Website Pages</h2>
+    <a href="https://www.deepdeyiitk.com/">Home</a>
+    <a href="https://www.deepdeyiitk.com/about-me">About Me</a>
+    <a href="https://www.deepdeyiitk.com/contactus">Contact Us</a>
+    <a href="https://store.deepdeyiitk.com/shop">Shop</a>
+  </div>
+
+  <div class="social-links">
+    <a href="https://www.instagram.com/deepdey.official/" target="_blank">Instagram</a>
+    <a href="https://www.youtube.com/channel/UCrh1Mx5CTTbbkgW5O6iS2Tw" target="_blank">YouTube</a>
+  </div>
+
+  <div style="margin-top:32px;">
+    <a href="https://www.deepdeyiitk.com" style="color:#ffd60a; font-weight:700; text-decoration:underline;">Back to Main Website</a>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.qna .question').forEach(function(q){
+    q.addEventListener('click', function(){
+      q.parentElement.classList.toggle('active');
+    });
+  });
+</script>
+
+</body>
+</html>
